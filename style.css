@@ -372,4 +372,15 @@ main {
     padding-left: 0;
 }
 }
-
+.scroll {
+    width: 1680px;
+    height: 306px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 30px;
+}
+.illustraties h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+}

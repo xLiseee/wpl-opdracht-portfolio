@@ -378,6 +378,7 @@ main {
     overflow-x: auto;
     white-space: nowrap;
     padding: 30px;
+    overflow-y: auto;
 }
 .illustraties h1 {
     font-size: 50px;

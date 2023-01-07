@@ -284,7 +284,7 @@ p {
     text-decoration: none;
 }
 .portfolio-buttons a{
-  text-decoration: none;
+    text-decoration: none;
 }
 #button-1 {
     background-color: #ebb548;
@@ -293,7 +293,7 @@ p {
     background-color: #ebb548;
 }
 .portfolio-wpl-buttons {
-  display: flex;
+    display: flex;
     width: auto;
     justify-content: center;
     margin:60px;
@@ -319,7 +319,7 @@ p {
     transition: width 0.5s;
 }
 .portfolio-wpl-buttons a{
-   text-decoration: none;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 949px) {
@@ -484,9 +484,9 @@ p {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        margin-top: 90px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
         width: auto;
         align-items: center;
 

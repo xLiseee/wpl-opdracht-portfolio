@@ -227,7 +227,9 @@ p {
     position: absolute;
     z-index: 3;
 }
-
+body {
+    overflow-y: hidden;
+}
 #rechthoek img {
 
     width: 428px;

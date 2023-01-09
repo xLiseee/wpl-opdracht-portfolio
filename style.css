@@ -559,6 +559,7 @@ p {
         display: flex;
 
     }
+
 }
 
 .scroll {
@@ -641,6 +642,7 @@ textarea {
     justify-content: center;
     border-radius: 35px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 label {
     font-size: 20px;
@@ -751,7 +753,7 @@ label {
         display: flex;
         justify-content: center;
         border-radius: 35px;
-        margin-left: 5px;
+        margin-left: 7px;
         margin-top: 60px;
     }
     label {

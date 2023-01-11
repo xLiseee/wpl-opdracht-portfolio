@@ -167,7 +167,10 @@ main {
     position: sticky;
     fill: white;
 }
-
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
 .social-links svg:hover {
     color: #ebb548;
     fill: #ebb548;

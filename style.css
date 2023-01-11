@@ -9,6 +9,10 @@ body {
     background-color: #2F92A8;
 }
 
+main {
+    margin: 0;
+}
+
 /* specifieke css */
 main .container {
     width: 100%;
@@ -167,10 +171,12 @@ main {
     position: sticky;
     fill: white;
 }
+
 .social-links a {
     text-decoration: none;
     color: white;
 }
+
 .social-links svg:hover {
     color: #ebb548;
     fill: #ebb548;
@@ -366,6 +372,108 @@ p {
 
 .portfolio-wpl-buttons a {
     text-decoration: none;
+}
+
+.scroll {
+    width: auto;
+    height: 306px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    overflow-y: hidden;
+    display: flex;
+
+}
+
+.scroll::-webkit-scrollbar {
+    height: 10px;
+    background-color: #a8c6d2;
+    border-radius: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #295b69;
+}
+
+
+.illustraties h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+}
+
+.ontwerpen h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.contact-form form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    border: 0;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.contact-form {
+    background-color: #a8c6d2;
+    height: 800px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.submit:hover {
+    background-color: #ebb548;
+    color: white;
+}
+
+.submit {
+    background-color: white;
+    color: #2F92A8;
 }
 
 @media only screen and (max-width: 949px) {
@@ -568,98 +676,6 @@ p {
 
 }
 
-.scroll {
-    width: auto;
-    height: 306px;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 20px;
-    overflow-y: hidden;
-    display: flex;
-
-}
-
-.scroll::-webkit-scrollbar {
-    height: 10px;
-    background-color: #a8c6d2;
-    border-radius: 6px;
-}
-
-.scroll::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #295b69;
-}
-
-
-.illustraties h1 {
-    font-size: 50px;
-    color: white;
-    margin-left: 30px;
-}
-
-.ontwerpen h1 {
-    font-size: 50px;
-    color: white;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.portfolio-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 30px 0;
-}
-
-.contact-form form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    width: 500px;
-
-}
-
-input {
-    width: 500px;
-    height: 50px;
-    border: 0;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    outline: none;
-}
-
-textarea {
-    width: 500px;
-    height: 200px;
-    border: 0;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    outline: none;
-}
-
-.contact-form {
-    background-color: #a8c6d2;
-    height: 800px;
-    width: 700px;
-    display: flex;
-    justify-content: center;
-    border-radius: 35px;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-label {
-    font-size: 20px;
-    color: white;
-    margin: 10px;
-}
-
 @media only screen and (max-width: 414px) {
     #rechthoek {
         width: 100%;
@@ -790,14 +806,17 @@ label {
         width: auto;
 
     }
+    .illustratie {
+        margin-left: 25px;
+        width: 340px;
+        height: 341px;
+        position: relative;
+    }
+
+    .color-circle {
+        position: absolute;
+        width: 340px;
+        height: 341px;
+    }
 }
 
-.submit:hover {
-    background-color: #ebb548;
-    color: white;
-}
-
-.submit {
-    background-color: white;
-    color: #2F92A8;
-}
